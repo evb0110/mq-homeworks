@@ -1,10 +1,13 @@
 .container {
-	width: 960px;
+  box-sizing: border-box;
+  width: 70%;       /* the exact value is 70.28% */
+  min-width: 768px;
+  max-width: 1300px;
 	padding: 15px 10px;
 }
 
 .card {
-	width: 428px;
+  width: calc(50% - 50px - 2px); /* 2px for border */
 	padding: 30px 20px;
 	border: 1px solid #d5d4d4;
 	margin-bottom: 20px;
@@ -17,3 +20,5 @@
 .card:nth-child(odd) {
 	margin-right: 10px;
 }
+
+/* При выполнении по указанному процессу реализации полоса прокрутки появляется только при сужении окна до 614px, т.е. когда начинает закрываться сам контент (а не паддинг) */
