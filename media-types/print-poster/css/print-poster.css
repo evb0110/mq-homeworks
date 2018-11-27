@@ -1,0 +1,11 @@
+@media print {
+
+  body {
+    color: #000000;
+    border: solid 20px #f69c4f;
+  }
+
+  .poster {
+    width: 200px;
+  }
+}
