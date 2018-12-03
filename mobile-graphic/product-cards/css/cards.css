@@ -1,0 +1,23 @@
+@media (min-width: 769px) {
+  .products {
+    display: flex;
+  }
+
+  .product {
+    width: 32%;
+  }
+
+  .product:nth-child(3n-1) {
+    margin-left:  2%;
+    margin-right: 2%;
+    
+  }
+}
+
+.product__footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+}
+
+/* Формально все условия выполнены, но на некоторых ширинах (например 1000px) смотрится плохо, поскольку product__footer располагается не внизу карточки товара */
