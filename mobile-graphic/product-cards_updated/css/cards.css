@@ -1,0 +1,33 @@
+.product {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+
+.product__body {
+  display: flex;
+  flex-direction: column;
+}
+
+.product__footer {
+  display: flex;
+  justify-content: space-between;
+  align-content: flex-end;
+}
+
+@media (min-width: 769px) {
+  .products {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: flex-start;
+  }
+
+  .product {
+    width: 32%;
+  }
+
+  .product:nth-child(3n-1) {
+    margin-left:  2%;
+    margin-right: 2%;
+  }
+}
