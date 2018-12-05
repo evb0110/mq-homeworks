@@ -1,18 +1,7 @@
-.product {
-  display: flex;
-  flex-direction: column;
-  justify-content: flex-start;
-}
-
-.product__body {
-  display: flex;
-  flex-direction: column;
-}
-
 .product__footer {
   display: flex;
   justify-content: space-between;
-  align-content: flex-end;
+  align-items: flex-end;
 }
 
 @media (min-width: 769px) {
