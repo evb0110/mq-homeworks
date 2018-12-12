@@ -1,8 +1,8 @@
-.container {
-  flex-wrap: wrap;
-}
 
 @media (orientation: landscape) {
+  .container {
+    flex-wrap: wrap;
+  }
 
   .card {
     width: 50%;
