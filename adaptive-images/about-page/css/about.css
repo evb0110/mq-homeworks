@@ -1,0 +1,22 @@
+@media (min-width: 961px) {
+  .page {
+    display: flex;
+  }
+
+  .aside {
+    width: 320px;
+    margin-right: 40px;
+
+  }
+
+  .content {
+    width: 100%;
+    order: 1;
+  }
+}
+
+@media (max-width: 960px) {
+  .aside__menu {
+    display: none;
+  }
+}
